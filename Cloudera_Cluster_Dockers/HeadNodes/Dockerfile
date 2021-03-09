@@ -1,5 +1,5 @@
 ## INSTALL CENTOS
-FROM centos:6.9
+FROM centos:7
 
 ## INSTALL JDK 7
 RUN yum update -y 
