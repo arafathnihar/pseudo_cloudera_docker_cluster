@@ -39,7 +39,7 @@ RUN yum install -y python-psycopg2
 
 # INSTALL MYSQL DATABASE
 
-RUN yum install -y mysql-server
+RUN yum install -y mariadb-server mariadb
 COPY create_databases.sql /var/lib/mysql
 
 ## COPY CLOUDERA REPO FILE
